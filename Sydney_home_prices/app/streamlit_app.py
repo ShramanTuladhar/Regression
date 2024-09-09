@@ -5,10 +5,9 @@ import numpy as np
 from PIL import Image
 
 # Open an image file
-image = Image.open(r"C:/Sydney_home_prices/app/sydney.jpeg")
+image = Image.open("app/sydney.jpeg")
 
-# Display the image in the app
-st.image(image,  width=500)
+st.image(image, caption='Sydney')
 
 #st.title('SYDNEY SUBURB HOUSE PRICE PREDICTION')
 st.markdown("<h1 style='text-align: center; color: green;'>SYDNEY SUBURB HOUSE PRICE PREDICTION</h1>", unsafe_allow_html=True)
