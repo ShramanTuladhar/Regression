@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Open an image file
-image = Image.open(Sydney_home_prices/app/sydney.jpeg)
+image = Image.open("Sydney_home_prices/app/sydney.jpeg")
 
 st.image(image, caption='Sydney')
 
