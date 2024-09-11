@@ -22,7 +22,7 @@ with open(json_file_path, 'r') as f:
 locations = locations_data['data_columns'][2:]
 
 # Load the trained machine learning model
-model_file_path = r"C:/Sydney_home_prices/model/Sydney home price model.pickle"
+model_file_path = r"Sydney_home_prices/model/Sydney home price model.pickle"
 with open(model_file_path,'rb') as f :
     model= pickle.load(f)
 
