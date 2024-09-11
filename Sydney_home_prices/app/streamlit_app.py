@@ -12,7 +12,7 @@ st.image(image, caption='Sydney')
 #st.title('SYDNEY SUBURB HOUSE PRICE PREDICTION')
 st.markdown("<h1 style='text-align: center; color: green;'>SYDNEY SUBURB HOUSE PRICE PREDICTION</h1>", unsafe_allow_html=True)
 # Specify the full path to the JSON file
-json_file_path = r"C:/Sydney_home_prices/model/columns.json"
+json_file_path = r"Sydney_home_prices/model/columns.json"
 
 # Open the JSON file and load its contents
 with open(json_file_path, 'r') as f:
