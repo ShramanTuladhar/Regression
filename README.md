@@ -51,8 +51,7 @@ This project focuses on analyzing **Sydney's real estate market**, performing **
 
 | ![Tableau Dashboard Sample](
 https://github.com/ShramanTuladhar/Regression/blob/main/Sydney_home_prices/sydney_houses/Screenshot%202025-03-02%20223948.png ) | 
-|:--:| 
-| *Tableau Dashboard Showing Price Trends Across Sydney Suburbs (Replace with actual screenshot)* |
+
 
 ---
 
@@ -68,6 +67,19 @@ https://github.com/ShramanTuladhar/Regression/blob/main/Sydney_home_prices/sydne
 | **Streamlit**      | App Deployment                        |
 
 ---
+
+## 🌐 Streamlit App Preview
+
+The project includes a **Streamlit web app** that allows users to input property details (bedrooms, bathrooms, location, etc.) and receive predicted prices in real-time.
+
+Here’s a preview of the app:
+
+![Streamlit App Preview](https://github.com/ShramanTuladhar/Regression/blob/main/Sydney_home_prices/sydney_houses/Screenshot%202025-03-02%20225551.png)
+
+You can run the app locally using:
+
+```bash
+streamlit run app.py
 
 ## 🚀 How to Run the Project Locally
 
